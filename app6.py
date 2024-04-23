@@ -46,7 +46,7 @@ def main() :
     # 시간과 분만 나오게
     st.write( my_time.strftime("%H:%M") )
 
-    #10. 색깔 입력 받는 방ㅂ버
+    #10. 색깔 입력 받는 방법
     color = st.color_picker('색을 선택하세요.')
     st.write(color)
 
